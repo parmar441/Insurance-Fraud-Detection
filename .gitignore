@@ -1,0 +1,71 @@
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+Training_Logs/
+Prediction_Logs/
+
+# Databases
+*.db
+Training_Database/
+Prediction_Database/
+flask_monitoringdashboard.db
+
+# Data inputs/outputs and intermediates
+Training_FileFromDB/
+Prediction_FileFromDB/
+Training_Raw_files_validated/
+Prediction_Raw_Files_Validated/
+TrainingArchiveBadData/
+PredictionArchivedBadData/
+Training_Batch_Files/
+Prediction_Batch_files/
+preprocessing_data/null_values.csv
+preprocessing_data/K-Means_Elbow.PNG
+
+# Models and artifacts
+models/
+*.sav
+
+# App outputs
+Prediction_Output_File/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Flask/runtime
+instance/
+*.pid
+
+# Build/dist
+build/
+dist/
+
+# Test/coverage
+.coverage
+.pytest_cache/
+.tox/
+
+
